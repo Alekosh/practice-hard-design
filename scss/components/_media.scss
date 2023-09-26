@@ -1,0 +1,85 @@
+// Экстрабольшие девайсы (большие десктопы, >= 1200px)
+@media (max-width: 1200px) {
+  .menu__item.active::before{
+    display: none;
+  }
+  .btns{
+    order: 2;
+  }
+  .header__menu{
+    order: 3;
+  }
+  // ============
+  .main__inner{
+    flex-direction: column;
+    text-align: center;
+    .main__text{
+      h1{
+        font-size: 6em;
+      }
+      p{
+        margin-bottom: 40px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+    }
+    .btn{
+      margin-bottom: 30px;
+    }
+  }
+  .main{
+    padding-top: 80px;
+    padding-bottom: 110px;
+  }
+}
+// Большие девайсы (десктопы, >= 992px)
+@media (max-width: 992px) { 
+
+}
+// Средние девайсы («таблетки», >= 768px)
+@media (max-width: 768px) { 
+  .header .btns {
+    display: none;
+  }
+  .header .logo {
+    margin-right: auto;
+  }
+  .main{
+    padding-top: 0;
+    padding-bottom: 80px;
+  }
+  .main__inner .main__text{
+    h1, p{
+      width: auto;
+    }
+    h1{
+      font-size: 4.8em;
+    }
+    p{
+      font-size: 1.8em;
+    }
+  }
+}
+// Малые девайсы («ландшафтные телефоны», >= 576px)
+@media (max-width: 576px) { 
+  .main__inner .main__text{
+    h1{
+      font-size: 3.2em;
+      margin-bottom: 15px;
+    }
+    p{
+      margin-bottom: 20px;
+    }
+    .btn{
+      margin-bottom: 15px;
+    }
+  }
+  .main{
+    padding-top: 0;
+    padding-bottom: 30px;
+  }
+}
+
+
+
+
