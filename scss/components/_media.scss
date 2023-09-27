@@ -162,6 +162,16 @@
   .gallary__images{
     grid-template-columns: repeat(1, 1fr);
   }
+  .footer{
+    p{
+      width: auto;
+    }
+  }
+  .footer{
+    &::before, &::after{
+      display: none;
+    }
+  }
 }
 
 
