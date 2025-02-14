@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
 .logo::before {
   content: '';
   display: block;
-  background: url("../../img/logo.svg") no-repeat;
+  background: url('../img/logo.svg') no-repeat;
   width: 74.224px;
   height: 74.224px;
   background-position: center;
@@ -417,7 +417,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 5;
   width: 432.812px;
   height: 736.5px;
-  background: url("../../img/overlaySecondLeft.svg") no-repeat;
+  background: url("../img/overlaySecondLeft.svg") no-repeat;
   bottom: -349px;
 }
 
@@ -619,7 +619,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 5;
   width: 432.812px;
   height: 736.5px;
-  background: url("../../img/overlaySecondLeft.svg") no-repeat;
+  background: url("../img/overlaySecondLeft.svg") no-repeat;
   bottom: -349px;
   overflow: hidden;
   background-size: cover;
